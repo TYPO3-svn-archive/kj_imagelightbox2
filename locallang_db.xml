@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <description>KJ: Image Lightbox v2</description>
+        <type>database</type>
+        <csh_table></csh_table>
+        <labelContext type="array">
+        </labelContext>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="tt_content.tx_kjimagelightbox2_imagelightbox2">Activate Imagelightbox v2</label>
+            <label index="tt_content.tx_kjimagelightbox2_imageset">Activate ImageSet</label>
+            <label index="tt_content.tx_kjimagelightbox2_presentationmode">Presentation mode</label>
+            <label index="dividers2tabs.image">Image options</label>
+            <label index="dividers2tabs.generall">General options</label>
+        </languageKey>
+        <languageKey index="de" type="array">
+            <label index="tt_content.tx_kjimagelightbox_imagelightbox2">Aktiviere die Imagelightbox v2</label>
+            <label index="tt_content.tx_kjimagelightbox2_imageset">Aktiviere BilderSets</label>
+			<label index="tt_content.tx_kjimagelightbox2_presentationmode">Praesentations Modus</label>            
+            <label index="dividers2tabs.image">Bilder Option</label>
+            <label index="dividers2tabs.generall">Allgemeine Optionen</label>
+        </languageKey>
+    </data>
+    <orig_hash type="array">
+        <languageKey index="default" type="array">
+            <label index="tt_content.tx_kjimagelightbox2_imagelightbox2" type="integer">103963376</label>
+            <label index="tt_content.tx_kjimagelightbox2_imageset" type="integer">73885943</label>
+        </languageKey>
+        <languageKey index="de" type="array">
+            <label index="tt_content.tx_kjimagelightbox_imagelightbox2" type="integer">222419149</label>
+            <label index="tt_content.tx_kjimagelightbox2_imageset" type="integer">73885943</label>
+        </languageKey>
+    </orig_hash>
+    <orig_text type="array">
+        <languageKey index="default" type="array">
+        </languageKey>
+        <languageKey index="de" type="array">
+        </languageKey>
+    </orig_text>
+</T3locallang>
