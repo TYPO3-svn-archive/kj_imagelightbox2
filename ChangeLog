@@ -1,19 +1,25 @@
 (add new changes on top of this file)
 
+08-06-15 Julian Kleinhans  <typo3@kj187.de>
+
+	* Important security fix. Check Security Bulletin TYPO3-20080527-1 for further details.
+	* Add Uploadcomment
+	
+
 06-08-18 Julian Kleinhans  <typo3@kj187.de>
 
 	* Initial release
 
-Version 1.4.0
-########################################################################	
-Update manual
-Refactoring the code
-Fix bugs
-add extension configuration.
- - you can set your own backgroundcolor
- - you can turn on/off dividers2tabs
- - you can set your own animation speed
- - you can set your own images for the close and loadingimage
- - you can set maxW and maxH for the clicked image size
- - you can change stylesheets for a tag id for the closebutton
- - if you use css styled content you can turn on/off the caption 
+	Version 1.4.0
+	########################################################################	
+	Update manual
+	Refactoring the code
+	Fix bugs
+	add extension configuration.
+	 - you can set your own backgroundcolor
+	 - you can turn on/off dividers2tabs
+	 - you can set your own animation speed
+	 - you can set your own images for the close and loadingimage
+	 - you can set maxW and maxH for the clicked image size
+	 - you can change stylesheets for a tag id for the closebutton
+	 - if you use css styled content you can turn on/off the caption 

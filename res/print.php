@@ -27,19 +27,27 @@
  * @author	Julian Kleinhans <typo3@kj187.de>
  */
 
-$content = '
-<html>
-<head>
-	<title>Print Image</title>
-</head>
+$value = $_GET['image'];
 
-<body onload="javascript:self.print()">
-
-<img src="http://'.$_SERVER['HTTP_HOST'].'/'.$_GET['image'].'" />
-
-</body>
-</html>';
-
-echo $content;
-
+if (isset($value)){
+	$value = addslashes(htmlspecialchars(trim($value)));
+	if(is_file($_SERVER['DOCUMENT_ROOT'].'/'.$value)){		
+		$content = '
+			<html>
+			<head>
+				<title>Print Image</title>
+			</head>
+			
+			<body onload="javascript:self.print()">
+			
+			<img src="http://'.$_SERVER['HTTP_HOST'].'/'.$value.'" />
+			
+			</body>
+			</html>
+		';		
+		echo $content;				
+	}else{
+		echo 'Non existing image';
+	}
+}
 ?>
