@@ -1,0 +1,51 @@
+
+plugin.tx_kjimagelightbox2 {
+
+	# inlcude prototype and scriptaculous
+	includeJSLib = 1
+
+	# cat=kj_imagelightboxv2//o1; type=options[titleText,altText,imagecaption]; label= Caption Field: Which tt_content field to use as caption inside the lightbox
+	captionField = titleText
+	
+	# cat=kj_imagelightboxv2/dims/d1; type=int+; label= lightbox max image width: Defines the maxwidth of the image shown in the lightbox
+	lightBoxMaxW = 600
+
+	# cat=kj_imagelightboxv2/dims/d2; type=int+; label= lightbox ax image height: Defines the maxheight of the image shown in the lightbox
+	lightBoxMaxH = 600
+ 
+	# Configuration for the lightbox2.04
+  	lightboxConfig {
+  		fileLoadingImage = typo3conf/ext/kj_imagelightbox2/res/lightbox2.04/images/loading.gif
+		fileBottomNavCloseImage = typo3conf/ext/kj_imagelightbox2/res/icons/cross.png
+		#typo3conf/ext/kj_imagelightbox2/res/lightbox2.04/images/closelabel.gif
+		
+		fileSaveModeImage = typo3conf/ext/kj_imagelightbox2/res/icons/bullet_disk.png
+		fileSavePrintImage = typo3conf/ext/kj_imagelightbox2/res/icons/printer.png 
+
+		# controls transparency of shadow overlay
+		overlayOpacity = 0.8
+
+		# toggles resizing animations
+		animate = true
+		
+		# controls the speed of the image resizing animations (1=slowest and 10=fastest)
+		resizeSpeed = 13
+		
+		# if you adjust the padding in the CSS, you will need to update this variable
+		borderSize = 10
+		
+		# When grouping images this is used to write: Image # of #.
+		labelImage = Bild
+		labelOf = von
+		
+		# PresentationMode - show image label or not
+		presentation_showLabelImage = 1
+		
+		presentation_showImageCaption = 1
+		
+		saveMode = 1
+		printMode = 1
+		
+
+  }
+}	
